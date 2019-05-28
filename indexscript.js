@@ -16,32 +16,27 @@ for(var i = 0; i < choices.length; i++) {
       if (computerChoice == 'paper'){
         document.getElementById("userChoice").innerHTML = `Your choice is ${userChoice}`;
         document.getElementById("computerChoice").innerHTML = `Computer choice is ${computerChoice}`;
-        document.getElementById("scissors").style.display = "none";
-        document.getElementById("message").innerHTML = "Computer Wins!";        
+        document.getElementById("message").innerHTML = "Computer Wins!";  
+
       }else if (computerChoice == 'scissors'){
-        document.getElementById("paper").style.display = "none";
         document.getElementById("userChoice").innerHTML = `Your choice is ${userChoice}`;
         document.getElementById("computerChoice").innerHTML = `Computer choice is ${computerChoice}`;
         document.getElementById("message").innerHTML = "You win!";
         
-        document.getElementById("userChoice").innerHTML = `Your choice is ${userChoice}`;
-        document.getElementById("computerChoice").innerHTML = `Computer choice is ${computerChoice}`;
       }else if (userChoice == computerChoice){
       document.getElementById("userChoice").innerHTML = `Your choice is ${userChoice}`;
-      document.getElementById("computerChoice").innerHTML = `Computer choice is ${computerChoice}`;
+      document.getElementById("computerChoice").innerHTML = `Computer choice is also ${computerChoice}`;
       document.getElementById("message").innerHTML = "Tie!";
       }
     }
     
     else if (userChoice == 'paper') {
       if (computerChoice == 'scissors'){
-        document.getElementById("rock").style.display = "none";
         document.getElementById("userChoice").innerHTML = `Your choice is ${userChoice}`;
         document.getElementById("computerChoice").innerHTML = `Computer choice is ${computerChoice}`;
         document.getElementById("message").innerHTML = "Computer Wins!";
         
       }else if (computerChoice == 'rock'){
-        document.getElementById("scissors").style.display = "none";
         document.getElementById("userChoice").innerHTML = `Your choice is ${userChoice}`;
         document.getElementById("computerChoice").innerHTML = `Computer choice is ${computerChoice}`;
         document.getElementById("message").innerHTML = "You win!";

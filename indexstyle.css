@@ -14,12 +14,16 @@ h2 {
 
 img {
   border-radius: 50%;
+  border: 10px solid #485460;
 }
 
 .choice {
   height: 400px;
   width: 400px;
   padding: 1em;
+}
+#message {
+  color: #0be881;
 }
 
 #choices {
