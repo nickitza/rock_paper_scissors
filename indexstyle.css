@@ -1,0 +1,28 @@
+body {
+  background-color: #1e272e;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+  color: #f8a5c2;
+}
+h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.choice {
+  height: 400px;
+  width: 400px;
+  padding: 1em;
+}
+
+#choices {
+  display: flex;
+  align-content: space-around;
+}
